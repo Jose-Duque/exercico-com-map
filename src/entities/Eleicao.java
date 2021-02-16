@@ -4,6 +4,11 @@ public class Eleicao {
 	
 	private String candidato;
 	private Integer votos;
+	
+	public Eleicao() {
+		
+	}
+	
 	public Eleicao(String candidato, Integer votos) {
 		super();
 		this.candidato = candidato;
